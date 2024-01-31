@@ -1,0 +1,33 @@
+1.Token Airdrop Smart Contract (Solidity):
+===========================================
+ implementation of a Token Airdrop Smart Contract in Solidity and a simple React webpage with Web3 
+ integration for MetaMask connection. 
+ This example assumes you're using the Binance Smart Chain (BSC) TestNet.
+
+2.React Webpage:
+============================
+ Install required dependencies before running the React app:
+npm install web3 react-web3-hook.
+
+
+In this code, replace 'YOUR_CONTRACT_ADDRESS' and CONTRACT_ABI with the actual address and ABI of 
+your deployed smart contract. Additionally, ensure that you've configured your 
+MetaMask for the BSC TestNet and have acquired test BNB and CAKE tokens for testing.
+
+Output:
+===========
+After deploying the smart contract and running the React app, you can use the provided UI to connect MetaMask, 
+enter the token address, airdrop amount, and recipient addresses. 
+Upon clicking the "Execute Airdrop" button, MetaMask will prompt you to confirm the transaction. 
+Once confirmed, the airdrop should be executed, and you will receive alerts indicating the success
+or failure of the operation.
+Ensure you have sufficient test BNB and CAKE tokens in your MetaMask wallet on the BSC TestNet for 
+successful transactions.
+
+
+
+
+
+
+
+
